@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TVM Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TVM Calculator</h1>
+    
+    <div class="input-group">
+      <label for="pv">Present Value (PV):</label>
+      <input type="number" id="pv" placeholder="Enter present value">
+    </div>
+    
+    <div class="input-group">
+      <label for="fv">Future Value (FV):</label>
+      <input type="number" id="fv" placeholder="Enter future value">
+    </div>
+    
+    <div class="input-group">
+      <label for="pmt">Payment (PMT):</label>
+      <input type="number" id="pmt" placeholder="Enter payment amount">
+    </div>
+    
+    <div class="input-group">
+      <label for="rate">Interest Rate (% per period):</label>
+      <input type="number" id="rate" placeholder="Enter interest rate">
+    </div>
+    
+    <div class="input-group">
+      <label for="nper">Number of Periods:</label>
+      <input type="number" id="nper" placeholder="Enter number of periods">
+    </div>
+    
+    <div class="input-group">
+      <label>Payment timing:</label>
+      <div class="radio-group">
+        <input type="radio" id="beginning" name="timing" value="beginning">
+        <label for="beginning">Beginning of period</label>
+        <input type="radio" id="end" name="timing" value="end" checked>
+        <label for="end">End of period</label>
+      </div>
+    </div>
+    
+    <div class="input-group">
+      <label for="solve">Solve for:</label>
+      <select id="solve">
+        <option value="pv">Present Value</option>
+        <option value="fv">Future Value</option>
+        <option value="pmt">Payment</option>
+        <option value="rate">Interest Rate</option>
+        <option value="nper">Number of Periods</option>
+      </select>
+    </div>
+    
+    <button id="calculate">Calculate</button>
+    
+    <div id="result" class="result-box">
+      <h3>Result: <span id="result-value">--</span></h3>
+    </div>
+    
+    <div class="help-text">
+      <p><strong>TVM Calculator Help:</strong></p>
+      <p>Enter values for all fields except the one you want to solve for. 
+      Select what you want to calculate from the "Solve for" dropdown.</p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
