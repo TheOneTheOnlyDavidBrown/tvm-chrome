@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background -->
+  <rect x="8" y="8" width="112" height="112" rx="16" fill="#3366cc" />
+  <rect x="16" y="16" width="96" height="96" rx="12" fill="#4477dd" />
+  
+  <!-- Calculator Display -->
+  <rect x="24" y="24" width="80" height="24" rx="4" fill="#e0e0e0" />
+  
+  <!-- Dollar Sign in Display -->
+  <text x="64" y="44" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#3366cc">$TVM</text>
+  
+  <!-- Calculator Buttons -->
+  <rect x="24" y="56" width="16" height="16" rx="2" fill="#fff" />
+  <rect x="48" y="56" width="16" height="16" rx="2" fill="#fff" />
+  <rect x="72" y="56" width="16" height="16" rx="2" fill="#fff" />
+  <rect x="96" y="56" width="16" height="16" rx="2" fill="#fff" />
+  
+  <rect x="24" y="80" width="16" height="16" rx="2" fill="#fff" />
+  <rect x="48" y="80" width="16" height="16" rx="2" fill="#fff" />
+  <rect x="72" y="80" width="16" height="16" rx="2" fill="#fff" />
+  <rect x="96" y="80" width="16" height="16" rx="2" fill="#fff" />
+  
+  <!-- Time Symbol -->
+  <circle cx="36" cy="96" r="14" fill="#ffffffaa" />
+  <path d="M36 86 L36 96 L42 102" fill="none" stroke="#3366cc" stroke-width="3" stroke-linecap="round" />
+</svg>
